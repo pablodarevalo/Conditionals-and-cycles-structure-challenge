@@ -7,7 +7,17 @@ while(numeroIngresado>0){
 
        for(i;i<=10;i++)   {
               console.log(numeroIngresado + "*" + i +"="+ numeroIngresado*i );
+
+
+             
        }
 
-     
-}
+  numeroIngresado = 0;   
+                        }
+
+
+if(numeroIngresado==0){
+       console.log("Todo numero multiplicado por 0 devuelve el mismo valor nulo,presione F5 e ingrese otro valor")
+                     }
+
+console.log("Proceso terminado");
